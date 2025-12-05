@@ -66,7 +66,7 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 <p align="center"><b>Screenshot 2:</b> Category management interface.</p>
 
 <p align="center">
-  <img src="./Images/Images/pod2.png" width="500" height="600">
+  <img src="./Images/Images/pod2.png" width="500" height="800">
 </p>
 <p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
 
