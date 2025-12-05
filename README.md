@@ -44,8 +44,8 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 ## 🎥 Demo (YouTube)
 
 <div align="center">
-  <a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">
-    <img src="./Images/youtube-thumbnail.png" width="500">
+  <a href="https://youtu.be/opkW9yOqt80" target="_blank">
+    <img src="./Images/Images/youtube.jpg" width="500">
   </a>
 </div>
 
