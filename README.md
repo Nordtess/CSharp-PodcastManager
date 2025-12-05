@@ -3,6 +3,8 @@
 # 🎧 C# Podcast Manager
 **A multi-layered, transaction-safe, MongoDB-powered podcast subscription system built with C#, WinForms & Atlas.**
 
+### <sub>📚 Developed as part of a backend engineering course at Örebro University</sub>
+
 
 </div>
 
@@ -61,7 +63,7 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 <p align="center">
   <img src="./Images/Images/pod4.png" width="500" height="500">
 </p>
-<p align="center">The center episode showcase showing title, publish date, total amount of episodes and the episode's description</p>
+<p align="center">The center episode showcase showing title, publish date, total amount of episodes and the episode's descriptions</p>
 
 <p align="center">
   <img src="./Images/Images/pod2.png" height="500">
@@ -71,7 +73,7 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 <p align="center">
   <img src="./Images/Images/pod3.png" height="500">
 </p>
-<p align="center">The categoru manager on the right side where the user can modify/create and also remove categories</p>
+<p align="center">The category manager on the right side where the user can modify/create and also remove categories</p>
 
 ---
 
