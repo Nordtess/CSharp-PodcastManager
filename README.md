@@ -115,3 +115,99 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 ```bash
 git clone https://github.com/Nordtess/CSharp-PodcastManager
 cd CSharp-PodcastManager
+
+### 2. Configure MongoDB Atlas Connection
+
+You can override the default connection settings via environment variables:
+
+**Windows PowerShell:**
+```bash
+setx MONGODB_URI "your-atlas-connection-string"
+setx MONGODB_DB  "your-database-name"
+
+## 🚀 Core Features in Detail
+
+### ✔️ Fetch & Parse RSS Feeds
+- Downloads raw RSS XML from the provided URL  
+- Parses titles, publish dates, external links, and episode descriptions  
+- Cleans all HTML using the built-in **HtmlCleaner** for safe, readable text  
+- Displays episodes instantly in the WinForms UI  
+
+---
+
+### ✔️ Save Podcast Feed + Episodes (Atomic Operation)
+Saving a feed triggers a **multi-document MongoDB transaction**, ensuring nothing is partially written:
+
+1. Insert the **Poddflöden** document  
+2. Assign its generated `Id` to every episode  
+3. Insert all **PoddAvsnitt** documents  
+4. Execute `CommitTransactionAsync()`  
+
+If **anything** fails:
+- The system calls `AbortTransactionAsync()`
+- Database remains consistent  
+- No half-saved feeds or episodes  
+
+This guarantees **ACID-safe persistence** just like in real enterprise applications.
+
+---
+
+### ✔️ Category Management
+- Create brand new categories  
+- Rename existing categories  
+- Delete categories  
+- Assign a category to any saved feed  
+- Remove a category from a feed  
+- Filter the entire feed list by selected category  
+
+The UI updates dynamically without requiring a restart.
+
+---
+
+### ✔️ Asynchronous Operations Everywhere
+All long-running operations run with `async/await`, including:
+
+- RSS downloading & parsing  
+- MongoDB fetch and save operations  
+- Multi-document transactions  
+
+This ensures:
+
+- The **UI never freezes**
+- Operations can run in parallel  
+- Better performance and responsiveness  
+
+---
+
+### ✔️ Clean Repository Pattern Implementation
+All database logic is abstracted behind clear interfaces:
+
+- `IPoddflodeRepository`  
+- `IPoddAvsnittRepository`  
+- `ICategoryRepository`  
+
+This makes the system:
+
+- **Easy to test** (repositories can be mocked)  
+- **Easy to maintain** (changes happen in one place)  
+- **Easy to extend** (add new operations without breaking others)  
+- **Database-agnostic** (MongoDB could be swapped for SQL with new repo implementations)
+
+The BusinessLayer uses only interfaces — it never needs to know how MongoDB works internally.
+
+---
+
+### ✔️ Robust Validation Layer
+The `PoddValidator` ensures:
+
+- RSS URLs are valid (`http` / `https`)  
+- Feed names follow length rules  
+- Categories cannot be duplicated  
+- A feed must be **saved** before assigning/remove categories  
+- A feed cannot be saved twice  
+- Category renames cannot collide with existing category names  
+
+This protects the system from invalid data and keeps the UI resilient.
+
+---
+
