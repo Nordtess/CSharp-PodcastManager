@@ -3,12 +3,6 @@
 # 🎧 OruMongoDB Podcast Manager  
 **A multi-layered, transaction-safe, MongoDB-powered podcast subscription system built with C#, WinForms & Atlas.**
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="55"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="55"/>
-</p>
 
 </div>
 
@@ -36,6 +30,17 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 
 ---
 
+## 🧰 Tech Stack
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="45" title="C#"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="45" title=".NET"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" title="MongoDB Atlas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="45" title="WinForms"/>
+</div>
+
+---
+
 ## 🧱 Key Architectural Highlights
 
 * **Repository Pattern** – All data access is isolated behind interfaces. Business logic never touches MongoDB code.
@@ -48,18 +53,7 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 * **4-Layer Architecture** – Clean structuring between UI → Business → Infrastructure → Domain.
 * **HTML Sanitization** – Episode descriptions are cleaned using HtmlAgilityPack.
 * **Dark Mode UI** – A custom WinForms theme for a modern feel.
-
----
-
-## 🧰 Tech Stack
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="45" title="C#"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="45" title=".NET"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" title="MongoDB Atlas"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="45" title="WinForms"/>
-</div>
-
+* 
 ---
 
 ## 🚀 Core Features in Detail
