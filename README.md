@@ -1,0 +1,3 @@
+🎧 OruMongoDB Podcast Manager
+A multi-layered, transaction-safe, MongoDB-powered podcast subscription system built with C#, WinForms & Atlas.
+<p align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="55" />&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="55" />&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="55" />&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="55" />&nbsp; </p>
