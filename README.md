@@ -56,22 +56,22 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 <p align="center">
   <img src="./Images/Images/pod1.png" width="700">
 </p>
-<p align="center"><b>Screenshot 1:</b> The main UI showing the whole application.</p>
+<p align="center">The main UI showing the whole application</p>
 
 <p align="center">
   <img src="./Images/Images/pod4.png" width="500" height="500">
 </p>
-<p align="center">The center episode showcase showing title, publish date, total amount of episodes and the episodes description.</p>
+<p align="center">The center episode showcase showing title, publish date, total amount of episodes and the episode's description</p>
 
 <p align="center">
   <img src="./Images/Images/pod2.png" height="500">
 </p>
-<p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
+<p align="center">The podcast manager on the left side where the user can change name of the saved feeds, change/remove/give it categories, sort by categories, and also the ability to remove an entire feed</p>
 
 <p align="center">
   <img src="./Images/Images/pod3.png" height="500">
 </p>
-<p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
+<p align="center">The categoru manager on the right side where the user can modify/create and also remove categories</p>
 
 ---
 
