@@ -53,17 +53,15 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 
 ## 🖼️ Screenshots
 
-> Replace filenames with your actual images inside the `/Images/` directory.
-
 <p align="center">
   <img src="./Images/Images/pod1.png" width="700">
 </p>
-<p align="center"><b>Screenshot 1:</b> Main UI showing fetched podcast episodes.</p>
+<p align="center"><b>Screenshot 1:</b> The main UI showing the whole application.</p>
 
 <p align="center">
   <img src="./Images/Images/pod4.png" width="500" height="500">
 </p>
-<p align="center"><b>Screenshot 2:</b> Category management interface.</p>
+<p align="center">The center episode showcase showing title, publish date, total amount of episodes and the episodes description.</p>
 
 <p align="center">
   <img src="./Images/Images/pod2.png" height="500">
