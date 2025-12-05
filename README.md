@@ -61,7 +61,7 @@ The goal of this project is to demonstrate real backend engineering concepts suc
 <p align="center"><b>Screenshot 1:</b> Main UI showing fetched podcast episodes.</p>
 
 <p align="center">
-  <img src="./Images/pod4.png" width="800">
+  <img src="./Images/Images/pod4.png" width="800">
 </p>
 <p align="center"><b>Screenshot 2:</b> Category management interface.</p>
 
