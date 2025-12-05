@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎧 OruMongoDB Podcast Manager  
+# 🎧 C# Podcast Manager
 **A multi-layered, transaction-safe, MongoDB-powered podcast subscription system built with C#, WinForms & Atlas.**
 
 
@@ -38,6 +38,42 @@ The goal of this project is to demonstrate real backend engineering concepts suc
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" title="MongoDB Atlas"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="45" title="WinForms"/>
 </div>
+
+---
+
+## 🎥 Demo (YouTube)
+
+<div align="center">
+  <a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">
+    <img src="./Images/youtube-thumbnail.png" width="500">
+  </a>
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+> Replace filenames with your actual images inside the `/Images/` directory.
+
+<p align="center">
+  <img src="./Images/pod1.png" width="800">
+</p>
+<p align="center"><b>Screenshot 1:</b> Main UI showing fetched podcast episodes.</p>
+
+<p align="center">
+  <img src="./Images/pod4.png" width="800">
+</p>
+<p align="center"><b>Screenshot 2:</b> Category management interface.</p>
+
+<p align="center">
+  <img src="./Images/pod2.png" width="800">
+</p>
+<p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
+
+<p align="center">
+  <img src="./Images/pod3.png" width="800">
+</p>
+<p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
 
 ---
 
@@ -130,39 +166,7 @@ Benefits:
 - Valid custom feed names  
 - No duplicate categories  
 - A feed must be saved before category operations  
-- A feed cannot be saved twice  
-
-
----
-
-## 🎥 Demo (YouTube)
-
-<div align="center">
-  <a href="https://youtu.be/YOUR_VIDEO_LINK" target="_blank">
-    <img src="./Images/youtube-thumbnail.png" width="500">
-  </a>
-</div>
-
----
-
-## 🖼️ Screenshots
-
-> Replace filenames with your actual images inside the `/Images/` directory.
-
-<p align="center">
-  <img src="./Images/screenshot1.png" width="800">
-</p>
-<p align="center"><b>Screenshot 1:</b> Main UI showing fetched podcast episodes.</p>
-
-<p align="center">
-  <img src="./Images/screenshot2.png" width="800">
-</p>
-<p align="center"><b>Screenshot 2:</b> Category management interface.</p>
-
-<p align="center">
-  <img src="./Images/screenshot3.png" width="800">
-</p>
-<p align="center"><b>Screenshot 3:</b> Episode details with sanitized HTML description.</p>
+- A feed cannot be saved twice
 
 ---
 
