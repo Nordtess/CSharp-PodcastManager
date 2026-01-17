@@ -10,7 +10,7 @@
 
 ## 💡 Description
 
-I built PodcastHub to demonstrate how to architect a production-ready desktop application using enterprise-grade patterns. It's a complete podcast subscription manager that fetches RSS feeds, parses episodes with proper HTML sanitization, organizes content by categories, and persists everything to MongoDB Atlas with full ACID transaction support—all while keeping the WinForms UI buttery smooth with asynchronous operations.
+I built PodcastHub (a university project) to demonstrate how to architect a production-ready desktop application using enterprise-grade patterns. It's a complete podcast subscription manager that fetches RSS feeds, parses episodes with proper HTML sanitization, organizes content by categories, and persists everything to MongoDB Atlas with full ACID transaction support—all while keeping the WinForms UI buttery smooth with asynchronous operations.
 
 This isn't just a feed reader—it's a showcase of **Clean Architecture**, **Repository Pattern**, and **transaction-safe NoSQL operations**, proving that you can build maintainable, scalable desktop apps without sacrificing code quality or user experience.
 
