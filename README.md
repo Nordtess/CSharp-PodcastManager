@@ -493,7 +493,6 @@ _Full-Stack Developer & Clean Architecture Enthusiast_
 Connect with me:
 
 - GitHub: [@Nordtess](https://github.com/Nordtess)
-- Portfolio: [Coming Soon]
 
 ---
 
