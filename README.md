@@ -28,13 +28,15 @@ This isn't just a feed reader—it's a showcase of **Clean Architecture**, **Rep
 
 ## 🧰 Tech Stack
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" title="C# (The Language)"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" height="40" alt=".NET" title=".NET (The Framework)"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB" title="MongoDB Atlas (The Cloud Database)"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40" alt="WinForms" title="WinForms (The UI Stack)"/>
-  <img src="https://img.icons8.com/color/48/000000/xml.png" width="40" height="40" alt="XML/RSS" title="RSS/Atom Feed Parsing"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" /><br/>C#</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" height="40" alt=".NET" /><br/>.NET</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB" /><br/>MongoDB</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40" alt="WinForms" /><br/>WinForms</td>
+    <td align="center"><img src="https://img.icons8.com/color/48/000000/xml.png" width="40" height="40" alt="XML/RSS" /><br/>RSS/XML</td>
+  </tr>
+</table>
 
 ---
 
